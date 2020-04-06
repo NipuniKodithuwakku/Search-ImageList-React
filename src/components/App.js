@@ -13,6 +13,10 @@ class App extends React.Component{
                ' Client-ID xHbw6-oFjZsB0AdzVLQ2jflnRZ3T7N3FnKmIQlyX518'
             }
         })
+        .then(response=>{
+            console.log(response.data.results);
+        });
+
     }
 
     render(){
